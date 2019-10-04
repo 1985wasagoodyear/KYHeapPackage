@@ -42,8 +42,6 @@ public protocol Heap {
     /// moves a node down the three, restores heap property
     func siftDown(at index: Int)
     
-    
-    
 }
 
 extension Heap {

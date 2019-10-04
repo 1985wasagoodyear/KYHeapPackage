@@ -10,7 +10,6 @@ typealias PriortyQueue = BinaryHeap
 
 class BinaryHeap { }
 
-
 extension BinaryHeap {
     static func isHeap<T:Comparable>(_ arr: [T], start: Int = 0, end: Int = arr.count - 1) -> Bool {
         // If a leaf node
